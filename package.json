@@ -19,6 +19,7 @@
   "description": "",
   "devDependencies": {
     "lite": "^4.0.5",
+    "lite-server": "^2.6.1",
     "server": "^1.0.42"
   }
 }
