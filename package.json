@@ -1,0 +1,24 @@
+{
+  "name": "inm420_christinenguyen_restapis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christine-49/inm420_christinenguyen_restAPIs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christine-49/inm420_christinenguyen_restAPIs/issues"
+  },
+  "homepage": "https://github.com/christine-49/inm420_christinenguyen_restAPIs#readme",
+  "description": "",
+  "devDependencies": {
+    "lite": "^4.0.5",
+    "server": "^1.0.42"
+  }
+}
