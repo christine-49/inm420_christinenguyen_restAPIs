@@ -1,0 +1,86 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, #4facfe, #00f2fe);
+  color: white;
+}
+
+/* Main App Container */
+.app-container {
+  width: 360px;
+  padding: 30px;
+}
+
+/* Header */
+.app-title {
+  font-size: 22px;
+  font-weight: 500;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+/* Weather Card */
+.weather-card {
+  padding: 40px 30px;
+  border-radius: 24px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+  animation: fadeIn 0.6s ease-in-out;
+}
+
+.location {
+  font-size: 20px;
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.temperature {
+  font-size: 90px;
+  font-weight: 200;
+  margin: 10px 0;
+}
+
+.condition {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  opacity: 0.85;
+}
+
+.condition img {
+  width: 40px;
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
